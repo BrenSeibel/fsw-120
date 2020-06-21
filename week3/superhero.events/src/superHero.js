@@ -11,7 +11,7 @@ function SuperHeroes(props) {
 return (
     <div onClick = {handleClick}>
         <h1>{props.item.name}</h1>
-        <img src = {props.item.imageName} atl = "images" />
+        <img src = {props.item.imageName} alt = "images" />
     </div>    
 )
 }

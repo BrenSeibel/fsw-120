@@ -1,8 +1,8 @@
 import React from 'react';
 import data from './heroesList.json'
-import superHero from "./superHero"
+import SuperHero from "./superHero"
 
-class heroesList extends React.Component {
+class HeroesList extends React.Component {
     constructor() {
         super()
         this.state = {
@@ -11,7 +11,7 @@ class heroesList extends React.Component {
     }
 
     render () {
-        const heroesList = this.state.heroes.map(item => <superHero key = {item.id} item = {item} handleClick = {this.handleClick}/>)
+        const heroesList = this.state.heroes.map(item => <SuperHero key = {item.id} item = {item} handleClick = {this.handleClick}/>)
 
         return (
             <div>
@@ -21,4 +21,4 @@ class heroesList extends React.Component {
     }
 }
 
-export default heroesList
+export default HeroesList
