@@ -12,12 +12,15 @@
     width: 200px;
     cursor: pointer;
   }
-  #placeholder {
+  .placeholder {
     height: 100px;
     width: 100px;
     padding: 50px;
     margin: 50px auto;
-    border: 1px solid gray;
+    border: 3px solid rgb(82, 186, 179);
     border-radius: 10px;  
     font-size:80px;
+  }
+  h1 {
+    color: rgb(82, 186, 179);
   }
