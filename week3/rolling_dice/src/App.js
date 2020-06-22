@@ -1,6 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+import Rolling from './Rolling.css';
+import Rolling from './rolling.js';
+import Dice from './dice.js'
 
 function App() {
   return (
