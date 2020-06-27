@@ -45,3 +45,5 @@ var blogPost=
     }
     
     ]
+
+    export default blogPost

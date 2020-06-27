@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,19 @@
   to {
     transform: rotate(360deg);
   }
+} */
+h1 {
+  font-family: 'Open Sans', sans-serif; font-weight: 800; font-size: 40px; font-display: swap; font-style: bold;
+}
+body {
+  text-align: center; text-indent: 0em;
+}
+h2 {
+  font-family: 'Open Sans', sans-serif; font-weight: 300; font-size: 30px; 
+}
+h4 {
+  font-family: 'Open Sans', sans-serif; font-weight: 300; font-size: 20px; font-style: italic; color: darkslategrey;
+}
+div {
+  font-family: 'spectral';
 }
