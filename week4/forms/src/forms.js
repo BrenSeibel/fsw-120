@@ -42,17 +42,6 @@ class Forms extends Component {
         )
     }
 
-    // // class list extends React.Component {
-    //     render() {
-    //       return (
-    //           <ol>
-    //               <li>Amy</li>
-    //               <li>Brooklyn</li>
-    //               <li>Zack</li>
-    //           </ol>
-    //       )
-    //     }
-    //   }
 }
 
 export default Forms
