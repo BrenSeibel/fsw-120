@@ -1,4 +1,20 @@
-.App {
+* {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  align-content: space-between;
+}
+html {
+  background-image: url(https://djtechzone.com/wp-content/uploads/2017/02/dj-backup-planning.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +51,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
