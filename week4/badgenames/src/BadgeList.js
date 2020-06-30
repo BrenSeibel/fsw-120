@@ -13,7 +13,11 @@ class BadgeList extends Component {
                 index = {i}    
                 firstName = {card.firstName}
                 lastName = {card.lastName}
-                age = {card.age}
+                email = {card.email}
+                placeOfBirth = {card.placeOfBirth}
+                phone = {card.phone}
+                favoriteFood = {card.favoriteFood}
+                tellUsAboutYourself = {card.tellUsAboutYourself}
                 handleDelete = {this.props.handleDelete}
                 />
             )

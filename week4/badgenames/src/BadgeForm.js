@@ -64,14 +64,43 @@ class BadgeForm extends Component {
                         value={this.state.lastName}
                         onChange={this.handleChange}
                     />
-                    Age: 
+                    Email: 
                     <input 
-                        type='number'
-                        name='age'
-                        value={this.state.age}
+                        type='text'
+                        name='email'
+                        value={this.state.email}
                         onChange={this.handleChange}
                     />
-                    <button> Submit Me </button>
+                    Place of Birth:
+                    <input 
+                        type='text'
+                        name='placeOfBirth'
+                        value={this.state.placeOfBirth}
+                        onChange={this.handleChange}
+                    />
+                    Phone:
+                    <input
+                        type='number'
+                        name='phone'
+                        value={this.state.phone}
+                        onChange={this.handleChange}
+                    />
+                    Favorite Food:
+                    <input
+                        type='text'
+                        name='favoriteFood'
+                        value={this.state.favoriteFood}
+                        onChange={this.handleChange}
+                    /> 
+                    Tell us about yourself:
+                    <input
+                        type='text'
+                        name='tellUsAboutYourself'
+                        value={this.state.tellUsAboutYourself}
+                        onChange={this.handleChange}
+                    />
+
+                    <button> Submit </button>
                 </form>
 
                 <BadgeList 
