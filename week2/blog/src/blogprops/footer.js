@@ -2,7 +2,7 @@ import React from "react"
 
 function App() {
     return (
-        <div>
+        <div style = {{background:"white"}}>
             Copyright &copy; Your Website 2019 
         </div>
     )
