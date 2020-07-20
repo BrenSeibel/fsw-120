@@ -1,5 +1,5 @@
 import React from 'react';
-// import './App.css';
+import './App.css';
 import { Route, Switch } from 'react-router-dom'
 import Navbar from './Navbar'
 import Home from './Home'
@@ -9,7 +9,7 @@ import Login from './Login'
 const App = () => {
 
   return (
-    <div className="App">
+    <div className="App" style = {{display:"grid", gridTemplateColumns:"25% 50%"}}>
 
       <Navbar />
 
