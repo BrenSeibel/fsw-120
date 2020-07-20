@@ -11,6 +11,40 @@ class App extends Component {
             result: ""
         }
     }
+    
+
+    calculate = () => {
+        try {
+            this.setState({
+                // eslint-disable-next-line
+                result: (eval(this.state.result) || "" ) + ""
+            })
+        } catch (e) {
+            this.setState({
+                result: "error"
+            })
+
+        }
+    };
+
+    reset = () => {
+        this.setState({
+            result: ""
+        })
+    };
+
+    onClick = (number) => {
+        console.log (number)
+        this.setState(prevState => ({
+            result: prevState.result.concat(number)
+        }))
+    }
+
+    backspace = () => {
+        this.setState({
+            result: this.state.result.slice(0, -1)
+        })
+    };
 
     render() {
         return (
@@ -18,7 +52,7 @@ class App extends Component {
                 <div className="calculator-body">
                     <h1>Simple Calculator</h1>
                     <ResultComponent result={this.state.result}/>
-                    <KeyPadComponent onClick={this.onClick}/>
+                    <KeyPadComponent onClick={this.onClick} calculate={this.calculate}reset={this.reset}backspace={this.backspace}/>
                 </div>
             </div>
         );

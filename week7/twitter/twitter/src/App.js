@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css';
-// import { Route, Switch } from 'react-router-dom'
+// import './App.css';
+import { Route, Switch } from 'react-router-dom'
 import Navbar from './Navbar'
 import Home from './Home'
 import TweetsList from './TweetsList'
@@ -13,11 +13,11 @@ const App = () => {
 
       <Navbar />
 
-      {/* <Switch>
+      <Switch>
         <Route exact path='/' component={Home} />
         <Route path='/login' component={Login} />
         <Route path='/tweets' component={TweetsList} />
-      </Switch> */}
+      </Switch>
 
     </div>
   );
