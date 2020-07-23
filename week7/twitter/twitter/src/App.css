@@ -48,7 +48,7 @@ svg{
   width: 50px; 
 }
 nav{
-   text-align: left;
+   text-align: left; font-size: 20px; padding: 0.5in;
 }
 
 nav svg {
@@ -57,7 +57,7 @@ nav svg {
   display: inline-block;
   fill: rgb(255, 255, 255);
   flex-shrink: 0;
-  font-size: 23px;
+  font-size: 30px;
   height: 28.75px;
   max-width: 100%;
   overflow-x: hidden;
